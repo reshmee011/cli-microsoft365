@@ -3,6 +3,7 @@ import type { SidebarsConfig } from '@docusaurus/plugin-content-docs';
 const sidebars: SidebarsConfig = {
   home: [
     'index',
+    'v8-upgrade-guidance',
     'v7-upgrade-guidance',
     'v6-upgrade-guidance',
     'v5-upgrade-guidance',
@@ -535,6 +536,15 @@ const sidebars: SidebarsConfig = {
               type: 'doc',
               label: 'm365group user set',
               id: 'cmd/entra/m365group/m365group-user-set'
+            }
+          ]
+        },
+        {
+          multitenant: [
+            {
+              type: 'doc',
+              label: 'multitenant get',
+              id: 'cmd/entra/multitenant/multitenant-get'
             }
           ]
         },
@@ -2195,6 +2205,11 @@ const sidebars: SidebarsConfig = {
               type: 'doc',
               label: 'contenttype sync',
               id: 'cmd/spo/contenttype/contenttype-sync'
+            },
+            {
+              type: 'doc',
+              label: 'contenttype field list',
+              id: 'cmd/spo/contenttype/contenttype-field-list'
             },
             {
               type: 'doc',
@@ -4021,6 +4036,11 @@ const sidebars: SidebarsConfig = {
             },
             {
               type: 'doc',
+              label: 'meeting attendancereport get',
+              id: 'cmd/teams/meeting/meeting-attendancereport-get'
+            },
+            {
+              type: 'doc',
               label: 'meeting attendancereport list',
               id: 'cmd/teams/meeting/meeting-attendancereport-list'
             },
@@ -4056,6 +4076,11 @@ const sidebars: SidebarsConfig = {
               type: 'doc',
               label: 'message list',
               id: 'cmd/teams/message/message-list'
+            },
+            {
+              type: 'doc',
+              label: 'message remove',
+              id: 'cmd/teams/message/message-remove'
             },
             {
               type: 'doc',
@@ -4325,6 +4350,11 @@ const sidebars: SidebarsConfig = {
               type: 'doc',
               label: 'engage search',
               id: 'cmd/viva/engage/engage-search'
+            },
+            {
+              type: 'doc',
+              label: 'engage community add',
+              id: 'cmd/viva/engage/engage-community-add'
             },
             {
               type: 'doc',
