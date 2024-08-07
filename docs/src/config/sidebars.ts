@@ -543,8 +543,23 @@ const sidebars: SidebarsConfig = {
           multitenant: [
             {
               type: 'doc',
+              label: 'multitenant add',
+              id: 'cmd/entra/multitenant/multitenant-add'
+            },
+            {
+              type: 'doc',
               label: 'multitenant get',
               id: 'cmd/entra/multitenant/multitenant-get'
+            },
+            {
+              type: 'doc',
+              label: 'multitenant remove',
+              id: 'cmd/entra/multitenant/multitenant-remove'
+            },
+            {
+              type: 'doc',
+              label: 'multitenant set',
+              id: 'cmd/entra/multitenant/multitenant-set'
             }
           ]
         },
